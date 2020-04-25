@@ -8,8 +8,9 @@ namespace KEAOpgave5._2
         {
             // Variables
             int limit = 101;
-            
-            while (limit > 100) // a way to keep showing intro / info since we initially set limit to 101
+
+            // a way to keep showing intro / info since we initially set limit to 101
+            while (limit > 100)
             {
                 Console.WriteLine("Hi! Were generating Pythagorean triplets.");
                 Console.WriteLine("Please input a maximum for the triplets of max 100:");
@@ -26,7 +27,7 @@ namespace KEAOpgave5._2
                 }
                 Console.Clear(); // Clearing console of the catch message 
             }
-           
+
             // Probably not the right way to go about making some structure to the output. 
             // Max input for triplets is 100 just because of this.
             Console.WriteLine("    | A^2 |    | B^2 |    | SquareRoot of C |\n    |_____|____|_____|____|_________________|");
