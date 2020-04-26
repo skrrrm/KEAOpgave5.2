@@ -18,7 +18,7 @@ namespace KEAOpgave5._2
 
                 try // convert input to interger
                 {
-                    max = Convert.ToInt32(Console.ReadLine()); 
+                    max = Convert.ToInt32(Console.ReadLine());
                 }
                 catch // if wrong input we try again
                 {
@@ -30,7 +30,7 @@ namespace KEAOpgave5._2
 
             // Probably not the right way to go about making some structure to the output. 
             // Max input for triplets is 100 just because of this.
-            Console.WriteLine("    | A^2 |    | B^2 |    | SquareRoot of C |\n    |_____|____|_____|____|_________________|");
+            Console.WriteLine("    | A^2 |    | B^2 |    | SquareRoot of C |\n    |_____|    |_____|    |_________________|");
 
             for (int a = 1; a < max; a++) // running through a 
                 for (int b = 1; b < max; b++) // running through b
